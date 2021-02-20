@@ -1,0 +1,12 @@
+<include href="views/header.html"></include>
+<body>
+<div class="jumbotron">
+<h2>Thank you for your order</h2>
+
+<h4>You ordered a {{ @SESSION.pet }} and it color is {{ @SESSION.color}}</h4>
+<h4>Pet name: {{ @SESSION.petName}}</h4>
+<a href="order">Place another order</a>
+<a href="{{@BASE}}">Home Page</a>
+</div>
+</body>
+</html>

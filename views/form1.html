@@ -1,0 +1,25 @@
+<include href="views/header.html"></include>
+
+<body>
+<div class="jumbotron">
+    <h2> Order a Pet</h2>
+    <form method="post" action="order2">
+        <label>What kind of pet would you like to order?
+            <input type="text" name="pet">
+        </label>
+        <br>
+        <label>Select a color
+            <select class="form-select" aria-label="Default select example" name="color">
+                <option >Select a color</option>
+                <option value="Red" >Red</option>
+                <option value="Blue" >Blue</option>
+                <option value="Orange" >Orange</option>
+            </select>
+        </label>
+        <br>
+        <input class="btn btn-primary active" type="submit" value="Place Order">
+    </form>
+    </div>
+
+</body>
+</html>
